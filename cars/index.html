@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cars</title>
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript"></script>
+  		<script src="./j/script.js" type="text/javascript"></script>
+  		<link rel="stylesheet" type="text/css" href="./c/styles.css">
+	</head>
+<body>
+	<div id="content">
+		<!-- Tables might be passe, but is semantically the right thing to do here -->
+		<table class="stats">
+			<tr>
+				<th>Second</th>
+				<th>Light</th>
+				<th>Car 1</th>
+				<th>Car 2</th>
+				<th>Car 3</th>
+			</tr>
+		</table>
+		<div>
+			<input id="pause" value="Pause" type="submit" class="button">
+		</div>
+		<div id="road">
+			<div class="cars"></div>
+			<div class="stoplight">
+				<div class="red inactive"></div>
+				<div class="green"></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
